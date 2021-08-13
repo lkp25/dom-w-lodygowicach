@@ -1,0 +1,194 @@
+body{
+
+    width: 100vh;
+    height: 100vh;
+    
+    /* blocks */
+    /* background-color: #d9b594;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='129' height='129' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23b89a7e' fill-opacity='0.09'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.09'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E"); */
+
+    /* checked */
+    background-color: #94cc6c;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%2394cc6c' width='11' height='11'/%3E%3Crect fill='%2396cc6d' x='10' width='11' height='11'/%3E%3Crect fill='%2398cd6f' y='10' width='11' height='11'/%3E%3Crect fill='%239bcd70' x='20' width='11' height='11'/%3E%3Crect fill='%239dce72' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%239fce73' y='20' width='11' height='11'/%3E%3Crect fill='%23a1cf75' x='30' width='11' height='11'/%3E%3Crect fill='%23a3cf76' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23a5d078' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23a7d079' y='30' width='11' height='11'/%3E%3Crect fill='%23a9d17b' x='40' width='11' height='11'/%3E%3Crect fill='%23abd17c' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23add27e' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23afd27f' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23b1d381' y='40' width='11' height='11'/%3E%3Crect fill='%23b3d382' x='50' width='11' height='11'/%3E%3Crect fill='%23b4d484' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23b6d486' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23b8d587' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23bad589' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23bcd68b' y='50' width='11' height='11'/%3E%3Crect fill='%23bdd68c' x='60' width='11' height='11'/%3E%3Crect fill='%23bfd78e' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23c1d790' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23c2d891' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23c4d893' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23c6d995' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23c7d996' x='70' width='11' height='11'/%3E%3Crect fill='%23c9da98' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23cada9a' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23ccdb9c' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23cddb9e' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23cfdc9f' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23d0dca1' x='80' width='11' height='11'/%3E%3Crect fill='%23d2dda3' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23d3dda5' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23d4dea7' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23d6dea9' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23d7dfaa' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23d8e0ac' x='90' width='11' height='11'/%3E%3Crect fill='%23dae0ae' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23dbe1b0' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23dce1b2' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23dde2b4' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23dfe2b6' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23e0e3b8' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23e1e4ba' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23e2e4bc' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23e3e5be' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e4e6c0' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e5e6c2' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23e7e7c4' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23e8e7c6' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23e9e8c8' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23e9e9ca' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23eae9cc' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ebeace' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23ecebd0' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23edebd2' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23eeecd4' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+/*
+=============== 
+Fonts
+===============
+*/
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* dark shades of primary color*/
+  --clr-primary-1: hsl(184, 91%, 17%);
+  --clr-primary-2: hsl(185, 84%, 25%);
+  --clr-primary-3: hsl(185, 81%, 29%);
+  --clr-primary-4: hsl(184, 77%, 34%);
+  /* primary/main color */
+  --clr-primary-5: hsl(185, 62%, 45%);
+  /* lighter shades of primary color */
+  --clr-primary-6: hsl(185, 57%, 50%);
+  --clr-primary-7: hsl(184, 65%, 59%);
+  --clr-primary-8: hsl(184, 80%, 74%);
+  --clr-primary-9: hsl(185, 94%, 87%);
+  --clr-primary-10: hsl(186, 100%, 94%);
+  /* darkest grey - used for headings */
+  --clr-grey-1: hsl(209, 61%, 16%);
+  --clr-grey-2: hsl(211, 39%, 23%);
+  --clr-grey-3: hsl(209, 34%, 30%);
+  --clr-grey-4: hsl(209, 28%, 39%);
+  /* grey used for paragraphs */
+  --clr-grey-5: hsl(210, 22%, 49%);
+  --clr-grey-6: hsl(209, 23%, 60%);
+  --clr-grey-7: hsl(211, 27%, 70%);
+  --clr-grey-8: hsl(210, 31%, 80%);
+  --clr-grey-9: hsl(212, 33%, 89%);
+  --clr-grey-10: hsl(210, 36%, 96%);
+  --clr-white: #fff;
+  --ff-primary: "Lato", sans-serif;
+  --transition: all 0.3s linear;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+/*
+=============== 
+Global Styles
+===============
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+ 
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+
+img:not(.nav-logo) {
+  width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3
+ {
+  letter-spacing: var(--spacing);
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.25rem;
+}
+h4 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-5);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.75rem;
+  }
+  h4 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+/*  global classes */
+
+/*
+=============== 
+Navbar
+===============
+*/
+.navbar {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  box-shadow: var(--dark-shadow);
+  z-index: 99999;
+}
+.nav-links{
+    width: 100vw;
+    background-color: #94cc6c;
+    
+    /* grid-template-columns: repeat(4, auto); */
+}
+.nav-link{
+  display: block;
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+  color: var(--clr-grey-5);
+  cursor: pointer;
+  font-size: 1rem;
+}
+.nav-link:hover{
+  color: var(--clr-primary-5);
+  background: var(--clr-primary-8);
+  padding-left: 2.25rem;
+}
+
+@media screen and (min-width: 992px) {
+    .nav-links{
+        width: 100vw;
+        background-color: #94cc6c;
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+
+/*
