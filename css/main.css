@@ -59,10 +59,11 @@ Variables
   --clr-white: #fff;
   --ff-primary: "Lato", sans-serif;
   --transition: all 0.3s linear;
-  --spacing: 0.25rem;
+  --spacing: 0.20rem;
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  scroll-behavior: smooth;
 }
 /*
 =============== 
@@ -154,10 +155,12 @@ Navbar
   position: sticky;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   background: var(--clr-white);
   box-shadow: var(--dark-shadow);
-  z-index: 99999;
+  z-index: 99;
+  animation: nav-anim 0.8s ease-out forwards;
+  transform: translateY(-110%);
 }
 .nav-links{
     width: 100vw;
@@ -173,7 +176,7 @@ Navbar
   transition: var(--transition);
   color: var(--clr-grey-5);
   cursor: pointer;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .nav-link:hover{
   color: var(--clr-primary-5);
@@ -191,4 +194,10 @@ Navbar
 }
 
 
-/*
+/* animation */
+@keyframes nav-anim {
+  0%{opacity: 0; transform: translateY(-110%);}
+  
+  100%{opacity: 1; transform: translateY(0);}
+
+}

@@ -1,0 +1,17 @@
+.hero-wrapper{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background: url(../photos/Dom001.jpg) center/cover;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    animation: hero-anim 3s ease-out forwards;
+    transform: translateY(0);
+}
+@keyframes hero-anim {
+    0%{opacity: 1; transform: translateY(0%);}
+    35%{opacity: 1; transform: translateY(0%);}
+    100%{opacity: 0; transform: translateY(-150%);}
+
+}
