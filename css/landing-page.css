@@ -6,14 +6,17 @@
     top: 0;
     left: 0;
     z-index: 100;
-    animation: hero-anim 3s ease-out forwards;
-    transform: translateY(0);
-    background-blend-mode:hue ;
+    animation: hero-anim 4s ease-out forwards;
+    transform: translateY(0) scale(1);
+    transform-origin:  left;
+    background-blend-mode:multiply ;
+    
 }
 @keyframes hero-anim {
-    0%{opacity: 1; transform: translateY(0%);}
-    35%{opacity: 1; transform: translateY(0%);}
-    100%{opacity: 0; transform: translateY(-150%);}
+    0%{opacity: 1; transform: translateY(0%) scale(1);}
+    22%{opacity: 1; transform: translateY(0%) scale(1);}
+    35%{opacity: 0.5; transform: translateY(7%) scale(0.8);}
+    100%{opacity: 0; transform: translateY(-150%) scale(0) skew(40deg);}
 
 }
 .hero-text{
