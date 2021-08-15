@@ -9,17 +9,24 @@
     animation: hero-anim 4s ease-out forwards;
     transform: translateY(0) scale(1);
     transform-origin:  left;
-    background-blend-mode:multiply ;
+    background-blend-mode:darken ;
     
 }
 @keyframes hero-anim {
     0%{opacity: 1; transform: translateY(0%) scale(1);}
     22%{opacity: 1; transform: translateY(0%) scale(1);}
-    35%{opacity: 0.5; transform: translateY(7%) scale(0.8);}
-    100%{opacity: 0; transform: translateY(-150%) scale(0) skew(40deg);}
+    55%{opacity: 0.5; transform: translateY(-15%) scale(0.5);}
+    100%{opacity: 0; transform: translateY(-150%) scale(0) skew(90deg);}
 
 }
+.hero-text-wall{
+    width: 70%;
+    height: 70%;
+    background: rgba(128, 0, 0, 0.589);
+}
 .hero-text{
-    color: red;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
     font-size: 5rem;
 }
