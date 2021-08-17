@@ -64,12 +64,20 @@
     pointer-events: all;
   }
   .modal-img-container{
+    
     border: 0.5rem solid gainsboro;
      position:absolute;
     left: 50%;
     top:50%;
     transform: translate(-50%, -50%);  
-    min-width: 320px;
+    min-width: 70vw;
+    
+}
+@media screen and (min-width: 1000px) {
+    .modal-img-container{
+        min-width: 65vw;
+    
+    }
   }
   .left-arrow{
     width:40%;
@@ -96,6 +104,21 @@
     opacity: 1;
   
   }
+  .left-arrow:hover {
+    background: url(../svg/angle-left.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center left;
+    
+}
+.right-arrow:hover {
+    background: url(../svg/angle-right.svg);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center right;
+   
+  }
+
   .left-arrow i, .right-arrow i{
     color: rgba(243, 230, 230, 0.822);
     font-size: 5rem;
@@ -108,4 +131,16 @@
   }
   .right-arrow i{
     right:1rem;
+  }
+
+  .image-description{
+      max-height: 1rem;
+      text-align: center;
+      font-size: 1.3rem;
+  }
+  @media screen and (min-width: 1000px) {
+    .image-description{
+        max-height: 2rem;        
+        font-size: 2rem;
+    }
   }
