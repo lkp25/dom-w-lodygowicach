@@ -145,7 +145,14 @@ p {
   }
 }
 /*  global classes */
-
+section{
+  
+  margin: 1rem 3vw;
+  width: 94vw;
+  min-height: 100vh;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgba(0, 0, 255, 0.15), rgba(102, 38, 38, 0.178));
+}
 /*
 =============== 
 Navbar
