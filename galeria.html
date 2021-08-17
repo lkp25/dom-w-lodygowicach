@@ -7,6 +7,7 @@
     <title>Galeria</title>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/gallery.css" />
+    <script src="./js/gallery.js" defer></script>
 </head>
 <body>
     <nav class="navbar">
@@ -189,5 +190,13 @@
         </div>
         
       </section>
+
+      <div class="modal">
+        <div class="modal-img-container">
+          <img class="modal-img" src="./photos/Sypialnia001.jpg" alt="photo">
+          <div class="left-arrow" onclick="displayImage(currentIndex -1)"><i class="fas fa-angle-left"></i></div>
+          <div class="right-arrow" onclick="displayImage(currentIndex +1)"><i class="fas fa-angle-right"></i></div>
+        </div>  
+      </div>
 </body>
 </html>
