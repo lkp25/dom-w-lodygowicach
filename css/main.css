@@ -191,7 +191,7 @@ Navbar
   padding-left: 2.25rem;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
     .nav-links{
         width: 100vw;
         background-color: #94cc6c;
