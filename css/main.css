@@ -8,10 +8,15 @@ body{
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='129' height='129' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23b89a7e' fill-opacity='0.09'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.09'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E"); */
 
     /* checked */
-    background-color: #94cc6c;
+    /* background-color: #94cc6c;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 100 60'%3E%3Cg %3E%3Crect fill='%2394cc6c' width='11' height='11'/%3E%3Crect fill='%2396cc6d' x='10' width='11' height='11'/%3E%3Crect fill='%2398cd6f' y='10' width='11' height='11'/%3E%3Crect fill='%239bcd70' x='20' width='11' height='11'/%3E%3Crect fill='%239dce72' x='10' y='10' width='11' height='11'/%3E%3Crect fill='%239fce73' y='20' width='11' height='11'/%3E%3Crect fill='%23a1cf75' x='30' width='11' height='11'/%3E%3Crect fill='%23a3cf76' x='20' y='10' width='11' height='11'/%3E%3Crect fill='%23a5d078' x='10' y='20' width='11' height='11'/%3E%3Crect fill='%23a7d079' y='30' width='11' height='11'/%3E%3Crect fill='%23a9d17b' x='40' width='11' height='11'/%3E%3Crect fill='%23abd17c' x='30' y='10' width='11' height='11'/%3E%3Crect fill='%23add27e' x='20' y='20' width='11' height='11'/%3E%3Crect fill='%23afd27f' x='10' y='30' width='11' height='11'/%3E%3Crect fill='%23b1d381' y='40' width='11' height='11'/%3E%3Crect fill='%23b3d382' x='50' width='11' height='11'/%3E%3Crect fill='%23b4d484' x='40' y='10' width='11' height='11'/%3E%3Crect fill='%23b6d486' x='30' y='20' width='11' height='11'/%3E%3Crect fill='%23b8d587' x='20' y='30' width='11' height='11'/%3E%3Crect fill='%23bad589' x='10' y='40' width='11' height='11'/%3E%3Crect fill='%23bcd68b' y='50' width='11' height='11'/%3E%3Crect fill='%23bdd68c' x='60' width='11' height='11'/%3E%3Crect fill='%23bfd78e' x='50' y='10' width='11' height='11'/%3E%3Crect fill='%23c1d790' x='40' y='20' width='11' height='11'/%3E%3Crect fill='%23c2d891' x='30' y='30' width='11' height='11'/%3E%3Crect fill='%23c4d893' x='20' y='40' width='11' height='11'/%3E%3Crect fill='%23c6d995' x='10' y='50' width='11' height='11'/%3E%3Crect fill='%23c7d996' x='70' width='11' height='11'/%3E%3Crect fill='%23c9da98' x='60' y='10' width='11' height='11'/%3E%3Crect fill='%23cada9a' x='50' y='20' width='11' height='11'/%3E%3Crect fill='%23ccdb9c' x='40' y='30' width='11' height='11'/%3E%3Crect fill='%23cddb9e' x='30' y='40' width='11' height='11'/%3E%3Crect fill='%23cfdc9f' x='20' y='50' width='11' height='11'/%3E%3Crect fill='%23d0dca1' x='80' width='11' height='11'/%3E%3Crect fill='%23d2dda3' x='70' y='10' width='11' height='11'/%3E%3Crect fill='%23d3dda5' x='60' y='20' width='11' height='11'/%3E%3Crect fill='%23d4dea7' x='50' y='30' width='11' height='11'/%3E%3Crect fill='%23d6dea9' x='40' y='40' width='11' height='11'/%3E%3Crect fill='%23d7dfaa' x='30' y='50' width='11' height='11'/%3E%3Crect fill='%23d8e0ac' x='90' width='11' height='11'/%3E%3Crect fill='%23dae0ae' x='80' y='10' width='11' height='11'/%3E%3Crect fill='%23dbe1b0' x='70' y='20' width='11' height='11'/%3E%3Crect fill='%23dce1b2' x='60' y='30' width='11' height='11'/%3E%3Crect fill='%23dde2b4' x='50' y='40' width='11' height='11'/%3E%3Crect fill='%23dfe2b6' x='40' y='50' width='11' height='11'/%3E%3Crect fill='%23e0e3b8' x='90' y='10' width='11' height='11'/%3E%3Crect fill='%23e1e4ba' x='80' y='20' width='11' height='11'/%3E%3Crect fill='%23e2e4bc' x='70' y='30' width='11' height='11'/%3E%3Crect fill='%23e3e5be' x='60' y='40' width='11' height='11'/%3E%3Crect fill='%23e4e6c0' x='50' y='50' width='11' height='11'/%3E%3Crect fill='%23e5e6c2' x='90' y='20' width='11' height='11'/%3E%3Crect fill='%23e7e7c4' x='80' y='30' width='11' height='11'/%3E%3Crect fill='%23e8e7c6' x='70' y='40' width='11' height='11'/%3E%3Crect fill='%23e9e8c8' x='60' y='50' width='11' height='11'/%3E%3Crect fill='%23e9e9ca' x='90' y='30' width='11' height='11'/%3E%3Crect fill='%23eae9cc' x='80' y='40' width='11' height='11'/%3E%3Crect fill='%23ebeace' x='70' y='50' width='11' height='11'/%3E%3Crect fill='%23ecebd0' x='90' y='40' width='11' height='11'/%3E%3Crect fill='%23edebd2' x='80' y='50' width='11' height='11'/%3E%3Crect fill='%23eeecd4' x='90' y='50' width='11' height='11'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
-    background-size: cover;
+    background-size: cover; */
+    /* dfdfdf */
+    background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect stroke='%23ffffff' stroke-width='0.29' width='1' height='1' id='s'/%3E%3Cpattern id='a' width='3' height='3' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cuse fill='%23fafafa' href='%23s' y='2'/%3E%3Cuse fill='%23fafafa' href='%23s' x='1' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s' x='2' y='2'/%3E%3Cuse fill='%23f5f5f5' href='%23s'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='2'/%3E%3Cuse fill='%23f0f0f0' href='%23s' x='1' y='1'/%3E%3C/pattern%3E%3Cpattern id='b' width='7' height='11' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s'/%3E%3Cuse href='%23s' y='5' /%3E%3Cuse href='%23s' x='1' y='10'/%3E%3Cuse href='%23s' x='2' y='1'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='8'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='5' y='2'/%3E%3Cuse href='%23s' x='5' y='6'/%3E%3Cuse href='%23s' x='6' y='9'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='h' width='5' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cg fill='%23ebebeb'%3E%3Cuse href='%23s' y='5'/%3E%3Cuse href='%23s' y='8'/%3E%3Cuse href='%23s' x='1' y='1'/%3E%3Cuse href='%23s' x='1' y='9'/%3E%3Cuse href='%23s' x='1' y='12'/%3E%3Cuse href='%23s' x='2'/%3E%3Cuse href='%23s' x='2' y='4'/%3E%3Cuse href='%23s' x='3' y='2'/%3E%3Cuse href='%23s' x='3' y='6'/%3E%3Cuse href='%23s' x='3' y='11'/%3E%3Cuse href='%23s' x='4' y='3'/%3E%3Cuse href='%23s' x='4' y='7'/%3E%3Cuse href='%23s' x='4' y='10'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='c' width='17' height='13' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cg fill='%23e5e5e5'%3E%3Cuse href='%23s' y='11'/%3E%3Cuse href='%23s' x='2' y='9'/%3E%3Cuse href='%23s' x='5' y='12'/%3E%3Cuse href='%23s' x='9' y='4'/%3E%3Cuse href='%23s' x='12' y='1'/%3E%3Cuse href='%23s' x='16' y='6'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='d' width='19' height='17' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cg fill='%23ffffff'%3E%3Cuse href='%23s' y='9'/%3E%3Cuse href='%23s' x='16' y='5'/%3E%3Cuse href='%23s' x='14' y='2'/%3E%3Cuse href='%23s' x='11' y='11'/%3E%3Cuse href='%23s' x='6' y='14'/%3E%3C/g%3E%3Cg fill='%23e0e0e0'%3E%3Cuse href='%23s' x='3' y='13'/%3E%3Cuse href='%23s' x='9' y='7'/%3E%3Cuse href='%23s' x='13' y='10'/%3E%3Cuse href='%23s' x='15' y='4'/%3E%3Cuse href='%23s' x='18' y='1'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='e' width='47' height='53' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cg fill='%23edb221'%3E%3Cuse href='%23s' x='2' y='5'/%3E%3Cuse href='%23s' x='16' y='38'/%3E%3Cuse href='%23s' x='46' y='42'/%3E%3Cuse href='%23s' x='29' y='20'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='f' width='59' height='71' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cg fill='%23edb221'%3E%3Cuse href='%23s' x='33' y='13'/%3E%3Cuse href='%23s' x='27' y='54'/%3E%3Cuse href='%23s' x='55' y='55'/%3E%3C/g%3E%3C/pattern%3E%3Cpattern id='g' width='139' height='97' patternUnits='userSpaceOnUse' patternTransform='scale(18.25) translate(-945.21 -708.9)'%3E%3Cg fill='%23edb221'%3E%3Cuse href='%23s' x='11' y='8'/%3E%3Cuse href='%23s' x='51' y='13'/%3E%3Cuse href='%23s' x='17' y='73'/%3E%3Cuse href='%23s' x='99' y='57'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23b)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23h)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23c)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23d)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23e)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23f)' width='100%25' height='100%25'/%3E%3Crect fill='url(%23g)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
 }
 
 
@@ -151,7 +156,7 @@ section{
   width: 94vw;
   min-height: 100vh;
   border-radius: 10px;
-  background: linear-gradient(45deg, rgba(0, 0, 255, 0.15), rgba(102, 38, 38, 0.178));
+  background: linear-gradient(45deg, rgba(75, 75, 87, 0.25), rgba(95, 79, 79, 0.25));
 }
 /*
 =============== 
@@ -159,7 +164,8 @@ Navbar
 ===============
 */
 .navbar {
-  position: sticky;
+  opacity: 0.9;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -168,10 +174,11 @@ Navbar
   z-index: 99;
   animation: nav-anim 0.8s ease-out forwards;
   transform: translateY(-110%);
+  border-bottom: 1px solid gray;
 }
 .nav-links{
     width: 100vw;
-    background-color: #94cc6c;
+    background: linear-gradient(180deg,  #ac82219b,  #683a1b7c);
     
     /* grid-template-columns: repeat(4, auto); */
 }
@@ -185,16 +192,16 @@ Navbar
   cursor: pointer;
   font-size: 1.2rem;
 }
-.nav-link:hover{
+.nav-link:hover, .nav-link:active{
   color: var(--clr-primary-5);
-  background: var(--clr-primary-8);
+  background: var(--clr-primary-1);
   padding-left: 2.25rem;
 }
 
 @media screen and (min-width: 800px) {
     .nav-links{
         width: 100vw;
-        background-color: #94cc6c;
+        
         display: grid;
         grid-template-columns: repeat(4, auto);
     }
