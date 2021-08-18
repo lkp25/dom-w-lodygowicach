@@ -1,0 +1,15 @@
+.contact-section{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:1rem;
+    padding: 1rem;
+}
+@media screen and (min-width: 700px) {
+    .contact-section{
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .contact-section div{
+        padding: 2rem;
+    }
+}
