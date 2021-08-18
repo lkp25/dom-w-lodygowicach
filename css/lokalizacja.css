@@ -1,0 +1,30 @@
+.lokalizacja-section{
+    display: grid;
+    grid-template-columns: 330px;
+    justify-content: center;
+    padding: 1rem;
+    gap: 0.7rem;
+    
+}
+.lokalizacja-descriptions-container{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 1.5rem;
+    /* background-color: black; */
+}
+.google-map{
+    width: 330px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+}
+@media screen and (min-width: 800px) {
+    .lokalizacja-section{
+        display: grid;
+        grid-template-columns: 40% 50%;
+        gap: 3rem;
+        
+    }
+    .google-map{
+        width: 100%;
+        height: 100%;
+    }
+}

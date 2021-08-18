@@ -48,6 +48,8 @@
 
 /* modal */
 .modal{
+  display: grid;
+  place-items: center;
     pointer-events: none;
     position: fixed;
     width:100%;
@@ -66,19 +68,34 @@
   .modal-img-container{
     
     border: 0.5rem solid gainsboro;
-     position:absolute;
-    left: 50%;
-    top:50%;
-    transform: translate(-50%, -50%);  
-    min-width: 70vw;
     
+    /* transform: translate(-50%, -50%);   */
+    width: 320px;
+    
+}
+@media screen and (min-width: 450px) {
+  .modal-img-container{
+    width: 390px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .modal-img-container{
+    width: 500px;
+  }
+}
+@media screen and (min-width: 800px) {
+  .modal-img-container{
+    width: 720px;
+  }
 }
 @media screen and (min-width: 1000px) {
     .modal-img-container{
         min-width: 65vw;
-    
+        left: 50%;
+        top:50%;
+        margin: 0;
     }
-  }
+}
   .left-arrow{
     width:40%;
     height: 100%;
