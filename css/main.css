@@ -271,3 +271,28 @@ Navbar
   color: hsla(209, 61%, 16%, 0.753);
   padding-bottom: 0.4rem;
 }
+.infolink{
+  color:hsl(208, 69%, 32%);
+  transition: var(--transition);
+}
+.infolink:hover{
+  cursor: pointer;
+  color:hsl(209, 58%, 46%);
+}
+.hide{
+  display: none;
+}
+.info-animation{
+  transform: scaleY(100%);
+  transform-origin: top;
+  
+  animation: info-animation 0.5s ease forwards;
+}
+@keyframes info-animation {
+  from{
+    transform: scaleY(0%);
+  }
+  to{
+    transform: scaleY(100%);
+  }
+}

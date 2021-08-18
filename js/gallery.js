@@ -52,3 +52,11 @@ document.addEventListener('keydown', e=>{
      displayImage(currentIndex +1)
    }
 })
+
+//info link
+const link = document.querySelector('.infolink')
+const info = document.querySelector('.gallery-info')
+link.addEventListener('click', e=>{
+    info.classList.toggle('hide')
+    info.classList.toggle('info-animation')
+})
