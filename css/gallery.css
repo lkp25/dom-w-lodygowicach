@@ -9,13 +9,32 @@
     padding:2rem 1rem;
   }
   .single-img-container{
+    position: relative;
     width:300px;
     height: 200px;
     overflow: hidden;
     /* padding: 1rem; */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.274);
     border-radius: 5px;
+    z-index: 3;
+  }
+  .single-img-container::before{
+    content: "";
+    position:absolute;
+    width: 102%;
+    height: 102%;
+    opacity: 0.3;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    background: linear-gradient(0deg,  #ac82219b,  #683a1b7c), 
+    linear-gradient(180deg,  #ffffff,  #ffffff)
+    ;
+    z-index: 1;
     
+  }
+  .single-img-container::before{
+    transform: scale(1.2);
   }
   .single-img{
     width: 100%;
@@ -25,6 +44,7 @@
     transition: var(--transition);
     cursor: pointer;
   }
+  
   .single-img:hover{
     transform: scale(1.05);
     opacity: 1;
