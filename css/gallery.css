@@ -5,8 +5,8 @@
     /* background-color: #bbb; */
     place-items: center;
     /* justify-items: space-evenly; */
-    gap:1rem;
-    padding:1rem;
+    gap:2rem;
+    padding:2rem 1rem;
   }
   .single-img-container{
     width:300px;
