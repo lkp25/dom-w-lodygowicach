@@ -296,3 +296,10 @@ Navbar
     transform: scaleY(100%);
   }
 }
+.contact-link{
+  color:hsl(208, 69%, 32%);
+}
+
+.contact-link:hover{
+  color:hsl(209, 58%, 46%);
+}
