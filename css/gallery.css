@@ -97,23 +97,23 @@
     }
 }
   .left-arrow{
-    width:40%;
-    height: 100%;
+    width:30%;
+    height: 60%;
     position: absolute;
     left: 0;
     top:50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(30%);
     opacity: 0;
     cursor: pointer;
     
   }
   .right-arrow{
-    width:40%;
-    height: 100%;
+    width:30%;
+    height: 60%;
     position: absolute;
     right: 0;
     top:50%;
-    transform: translateY(-50%);
+    transform: translateY(-50%) translateX(-30%);
     opacity: 0;
     cursor: pointer;
   }
