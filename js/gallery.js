@@ -15,6 +15,7 @@ images.forEach((img, index) => {
 })
 
 const displayImage = (index) => {
+    document.body.style.overflow = 'hidden';
     console.log(index);
     if (index < 0) {
         displayImage(images.length -2)
@@ -31,12 +32,22 @@ const displayImage = (index) => {
         const description = modal.querySelector('.image-description')
         description.textContent = images[index].getAttribute('alt')
         modalImg.src = imgSource
+        
+        description.classList.add('fade-in')
+        modalImg.classList.add('fade-in')
+        setTimeout(() => {
+            
+            
+            description.classList.remove('fade-in')
+            modalImg.classList.remove('fade-in')
+        }, 900);
 }
 
 modal.addEventListener('click', (e) => {
     //close the modal if clicked outside of modal-image
     if(e.target.classList.contains('modal')) {
         modal.classList.remove('modal-visible')
+        document.body.style.overflow = null;
     }
 })
    

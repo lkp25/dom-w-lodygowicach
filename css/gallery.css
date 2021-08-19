@@ -1,3 +1,10 @@
+
+.fade-in{
+  animation: fade-in 0.8s linear forwards;
+}
+.fade-out{
+  animation: fade-out 0.9s ease-out forwards;
+}
 .gallery-photos-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -17,6 +24,9 @@
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.274);
     border-radius: 5px;
     z-index: 3;
+    opacity: 0;
+    animation: fade-in 0.5s linear forwards;
+    animation-delay: 1s;
   }
   .single-img-container::before{
     content: "";
@@ -43,6 +53,7 @@
     opacity: 0.8;
     transition: var(--transition);
     cursor: pointer;
+    animation: fade-in 1.5s ease-out forwards;
   }
   
   .single-img:hover{
@@ -92,7 +103,8 @@
     /* transform: translate(-50%, -50%);   */
     width: 320px;
     
-}
+  }
+ 
 .image-description{
   font-family: 'Sawarabi Mincho', sans-serif;
   text-transform: capitalize;
@@ -128,7 +140,7 @@
     position: absolute;
     left: 0;
     top:50%;
-    transform: translateY(-50%) translateX(33%);
+    transform: translateY(-50%) translateX(40%);
     opacity: 0;
     cursor: pointer;
     
@@ -139,7 +151,7 @@
     position: absolute;
     right: 0;
     top:50%;
-    transform: translateY(-50%) translateX(-33%);
+    transform: translateY(-50%) translateX(-40%);
     opacity: 0;
     cursor: pointer;
   }
