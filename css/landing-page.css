@@ -105,7 +105,7 @@
     box-shadow: var(--dark-shadow);
     color: var(--clr-grey-5);
     cursor: pointer;
-    place-self: center;
+    
     width: 200px;
     height: 70px;
     border-radius:22% 8% 24% 9% / 60% 5% 60% 7% ;
@@ -118,6 +118,9 @@
 }
 .tease-button:hover{
     background: var(--clr-primary-1);
+}
+.tease-button-anchor{
+    place-self: center;
 }
 @keyframes grow {
 
