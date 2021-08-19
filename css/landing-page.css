@@ -53,13 +53,26 @@
     left: 3%;
 }
 .infoblock{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     width: 100vw;
-    height: 60vh;
-    background: rgba(128, 128, 128, 0.788);
+    height: 70vh;
+    background: rgba(128, 128, 128, 0.61);
+    padding: 2rem 0.5rem;
+    margin-top: 60px;
 }
 #hero-nav{
     position: sticky;
     bottom:-100%;
+}
+#intro-text{
+    font-size: 1.2rem;
+    text-align: center;
+ }
+ @media screen and (min-width: 600px) {
+    #intro-text{
+        font-size: 1.5rem;
+        text-align: center;
+     }
 }
 @media screen and (min-width: 1000px) {
     
@@ -67,13 +80,15 @@
         height: 100vh;
         
     }
-    #hero-nav{
-        display: none;
-    }
+    
     .hero-text-wall svg{
         width: 90vw;
         position: absolute;
         bottom: 16%;
         left: 3%;
     }
+    #intro-text{
+        font-size: 2rem;
+        text-align: center;
+     }
 }

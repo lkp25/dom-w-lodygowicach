@@ -5,8 +5,23 @@
     padding: 1rem;
 }
 .description{
+    opacity: 0;
     display: grid;
     place-items: center;
+    animation: fade-in 2s ease-out forwards;
+    
+}
+#desc1{
+    animation-delay: 0.5s;
+}
+#desc2{
+    animation-delay: 1s;
+}
+#desc3{
+    animation-delay: 1.5s;
+}
+#desc4{
+    animation-delay: 2s;
 }
 @media screen and (min-width: 700px) {
     .contact-section{

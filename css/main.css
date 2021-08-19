@@ -69,6 +69,7 @@ Variables
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   scroll-behavior: smooth;
+  
 }
 /*
 =============== 
@@ -82,8 +83,8 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-primary);
- 
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.1rem;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -305,8 +306,9 @@ Navbar
   
 }
 .description p{
-  color: hsla(209, 61%, 16%, 0.753);
+  color: hsla(209, 61%, 16%, 0.931);
   padding-bottom: 0.4rem;
+  letter-spacing: 0.1rem;
 }
 .infolink{
   color:hsl(208, 69%, 32%);
