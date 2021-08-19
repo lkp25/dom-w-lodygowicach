@@ -10,7 +10,7 @@ function togglelinks(){
 window.addEventListener('resize', ()=>{
     if(window.innerWidth < 700){
         
-        links.classList.add('hide-links')
+        links.classList.remove('hide-links')
     }
     
 });

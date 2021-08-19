@@ -100,12 +100,12 @@
 }
 @media screen and (min-width: 600px) {
   .modal-img-container{
-    width: 500px;
+    width: 480px;
   }
 }
 @media screen and (min-width: 800px) {
   .modal-img-container{
-    width: 720px;
+    width: 650px;
   }
 }
 @media screen and (min-width: 1000px) {

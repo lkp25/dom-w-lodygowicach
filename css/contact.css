@@ -4,6 +4,10 @@
     gap:1rem;
     padding: 1rem;
 }
+.description{
+    display: grid;
+    place-items: center;
+}
 @media screen and (min-width: 700px) {
     .contact-section{
         grid-template-columns: 1fr 1fr;
@@ -21,4 +25,8 @@
     .contact-section div{
         padding: 3rem;
     }
+}
+.contact-link{
+    display: inline-block;
+    padding-top: 0.3rem;
 }
