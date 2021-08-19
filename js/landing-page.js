@@ -12,7 +12,7 @@ if(currentUrl.match('kontakt')){
      links.children[0].children[0].classList.add('nav-link-active')
 }
 
-menu.addEventListener('click', e=>{
+menu?.addEventListener('click', e=>{
     togglelinks()
 })
 function togglelinks(){
@@ -21,7 +21,7 @@ function togglelinks(){
 window.addEventListener('resize', ()=>{
     if(window.innerWidth < 700){
         
-        links.classList.remove('hide-links')
+        links?.classList.remove('hide-links')
     }
     
 });
