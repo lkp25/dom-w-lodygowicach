@@ -7,6 +7,6 @@
     margin: 1rem;
 }
 .show-text{
-    animation: fade-in 2s ease-out forwards;
-    animation-delay: 1s;
+    animation: fade-in 1.2s ease-out forwards;
+    
 }

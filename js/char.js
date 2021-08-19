@@ -2,7 +2,7 @@ const paragraphs = [...document.querySelectorAll('.description')]
 
 document.addEventListener('scroll', e=>{
     console.log(window.scrollY);
-    const currentElement = paragraphs.find(p => p.offsetTop <  window.innerHeight - p.getBoundingClientRect().top && !p.classList.contains('show-text'))
+    const currentElement = paragraphs.find(p => p.getBoundingClientRect().top <  window.innerHeight - 200  && !p.classList.contains('show-text'))
     if(!currentElement){
         return
     }
