@@ -93,6 +93,12 @@
     width: 320px;
     
 }
+.image-description{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  border-top: 1px solid gray;
+}
 @media screen and (min-width: 450px) {
   .modal-img-container{
     width: 390px;
@@ -118,22 +124,22 @@
 }
   .left-arrow{
     width:30%;
-    height: 60%;
+    height: 50%;
     position: absolute;
     left: 0;
     top:50%;
-    transform: translateY(-50%) translateX(30%);
+    transform: translateY(-50%) translateX(33%);
     opacity: 0;
     cursor: pointer;
     
   }
   .right-arrow{
     width:30%;
-    height: 60%;
+    height: 50%;
     position: absolute;
     right: 0;
     top:50%;
-    transform: translateY(-50%) translateX(-30%);
+    transform: translateY(-50%) translateX(-33%);
     opacity: 0;
     cursor: pointer;
   }
