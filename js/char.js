@@ -1,4 +1,4 @@
-const paragraphs = [...document.querySelectorAll('.description')]
+const paragraphs = [...document.querySelectorAll('.scroll-animate')]
 
 
 

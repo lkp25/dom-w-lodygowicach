@@ -1,15 +1,31 @@
+.main-header{
+    opacity: 0;
+  animation: fade-in 0.8s linear forwards;
+  animation-delay: 0.3s;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  margin: 0rem 2vw 0rem 2vw;
+  width: 96vw;
+  padding: 1rem;
+  border-radius: 10px;
+  background: linear-gradient(45deg, rgba(75, 75, 87, 0.25), rgba(95, 79, 79, 0.25));
+}
+.main-header:first-of-type{
+    margin:80px 2vw 0rem 2vw;
+}
+
 .description{
     opacity: 0;
     /* display: grid; */
     place-items: center;
     min-height: 100vh;
-    background: chartreuse;
-    margin-top: 1rem;
+    /* background: chartreuse;*/
+    margin-top: 0rem;
+    margin-bottom: 0.5rem;
     padding: 2rem 1rem;
     font-size:  1rem;
 }
 .description-main{
-    background: rgba(135, 154, 189, 0.836);
+    background: rgba(117, 131, 158, 0.685);
     justify-content: space-between;
     
 }
@@ -22,6 +38,7 @@
     grid-template-columns: 1fr;
     gap: 1rem;
     padding: 1rem 0.2rem;
+    margin-top:0.5rem;
 }
 #first-char-paragaraph{
     animation: fade-in 1.2s ease-out forwards, slide-in 1.2s ease-out forwards;
@@ -32,9 +49,39 @@
     outline-offset: 6px;
     margin-bottom: 2rem;
 }
+
+.rooms-desc-section{
+    padding: 1rem 0.2rem;
+    margin-top: 0.5rem;
+}
+.other-desc-section{
+    padding: 1rem 0.2rem;
+    margin-top: 0.5rem;
+}
+.floor{
+    font-weight: bold;
+    font-size: 1.2rem;
+    display: block;
+    border-radius: 5px;
+    background: rgba(71, 75, 82, 0.157);
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
 @media screen and (min-width: 1000px) {
     .main-page{
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 2rem 2rem;
+        margin-bottom: 1rem;
+    }
+    .rooms-desc-section{
+        padding: 0.5rem 2rem;
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        gap: 1rem;
+        
+    }
+    .other-desc-section{
         padding: 2rem 2rem;
     }
 }
