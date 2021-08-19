@@ -379,3 +379,8 @@ Navbar
   from{opacity: 1;}
   to{opacity: 0.3;}
 }
+
+@keyframes slide-in {
+  from{transform: translateY(-35px);}
+  to{transform: translateY(0px);}
+}
