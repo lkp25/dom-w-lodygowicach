@@ -2,14 +2,16 @@
     display: grid;
     grid-template-columns: 1fr;
     gap:1rem;
-    padding: 1rem;
+    padding: 0.5rem;
 }
 .description{
     opacity: 0;
     display: grid;
     place-items: center;
     animation: fade-in 2s ease-out forwards;
-    
+    width: 330px;
+    padding:1rem 0.5rem;
+
 }
 #desc1{
     animation-delay: 0.5s;
@@ -31,6 +33,12 @@
     .contact-section div{
         padding: 2rem;
     }
+    .description{
+        width: 100%;
+    }
+    .contact-link{
+        letter-spacing: normal;
+    }
 }
 @media screen and (min-width: 900px) {
     .contact-section{
@@ -44,4 +52,5 @@
 .contact-link{
     display: inline-block;
     padding-top: 0.3rem;
+    letter-spacing: 0rem;
 }
