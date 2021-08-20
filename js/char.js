@@ -1,6 +1,10 @@
 const paragraphs = [...document.querySelectorAll('.scroll-animate')]
 
-
+if(window.innerWidth > 800){
+    paragraphs[0].classList.add('show-text')
+    paragraphs[1].classList.add('show-text')
+    paragraphs[2].classList.add('show-text')
+}
 
 document.addEventListener('scroll', e=>{
     console.log(window.scrollY);
