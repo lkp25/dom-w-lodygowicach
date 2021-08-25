@@ -134,6 +134,10 @@
         margin: 0;
     }
 }
+
+.left-arrow:active, .right-arrow:active{
+  background: none;
+}
   .left-arrow{
     width:30%;
     height: 50%;
