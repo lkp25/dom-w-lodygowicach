@@ -277,6 +277,9 @@ Navbar
     .navbar {
       height: 60px;
     }
+    .description{
+      padding: 1rem;
+    }
 }
 
 
@@ -313,7 +316,9 @@ Navbar
 .infolink{
   color:hsl(208, 69%, 32%);
   transition: var(--transition);
-  font-style:italic ;
+  font-style:italic bold ;
+  font-size: 1.1rem;
+ 
 }
 .infolink:hover{
   cursor: pointer;

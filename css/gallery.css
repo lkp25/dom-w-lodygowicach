@@ -61,6 +61,10 @@
     opacity: 1;
   }
 
+  .gallery-info{
+    padding: 0.7rem;
+  }
+
   @media screen and (min-width: 1000px) {
     .gallery-photos-container{
         display: grid;

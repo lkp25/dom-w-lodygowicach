@@ -68,6 +68,12 @@
     margin-bottom: 0.5rem;
     text-align: center;
 }
+
+@media screen and (min-width: 600px) {
+    .description{
+        padding: 2rem;
+      }
+}
 @media screen and (min-width: 1000px) {
     .main-page{
         grid-template-columns: 1fr 1fr 1fr;
@@ -84,4 +90,7 @@
     .other-desc-section{
         padding: 2rem 2rem;
     }
+    .description{
+        padding: 1rem;
+      }
 }
