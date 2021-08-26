@@ -37,9 +37,9 @@
     height: 40vh;
     width: 100vw;    
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.781) 20%,rgba(0,0,0,0) 30%, rgba(0,0,0,0) 80%, rgba(245, 245, 242, 0) 100%), url(../photos/Dom002.jpg) left/cover;
+    animation: fade-in 3s ease-out forwards;
     
-    
-    transform: translateY(0) scale(1);
+    /* transform: translateY(0) scale(1); */
     /* transform-origin:  left; */
     /* background-blend-mode: ; */
     
@@ -154,6 +154,6 @@
 @keyframes grow {
 
     0%{transform: scale(1);box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.3);}
-    50%{transform: scale(1.2);box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.041);}
+    50%{transform: scale(1.15);box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.041);}
     100%{transform: scale(1);box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.3);}
 }
