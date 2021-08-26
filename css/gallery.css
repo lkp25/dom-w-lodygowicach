@@ -53,7 +53,7 @@
     opacity: 0.8;
     transition: var(--transition);
     cursor: pointer;
-    animation: fade-in 1.5s ease-out forwards;
+    animation: fade-in 1.5s ease-out forwards, skeleton-pulse 1s ease infinite alternate;
   }
   
   .single-img:hover{

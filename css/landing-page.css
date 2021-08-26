@@ -1,3 +1,18 @@
+/* load navbar with delay */
+.navbar-landing{
+    animation: nav-anim-index 1.8s ease-out 1s forwards;
+    ;
+    z-index: -10;
+    opacity: 0;
+    transform-origin: left;
+}
+@keyframes nav-anim-index {
+    0%{opacity: 0; transform: scaleX(0) translateX(-110%);}
+    
+    100%{opacity: 1; transform: scaleX(1) translateY(0);}
+  
+  }
+
 .topshader{
     
     position: fixed;
@@ -23,7 +38,7 @@
     width: 100vw;    
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.781) 20%,rgba(0,0,0,0) 30%, rgba(0,0,0,0) 80%, rgba(245, 245, 242, 0) 100%), url(../photos/Dom002.jpg) left/cover;
     
-    /* animation: hero-anim 4s ease-out forwards; */
+    
     transform: translateY(0) scale(1);
     /* transform-origin:  left; */
     /* background-blend-mode: ; */
@@ -31,17 +46,18 @@
 }
 
 @keyframes hero-anim {
-    0%{opacity: 1; transform:  scale(1);}
-    22%{opacity: 1; transform:  scale(1);}
-    55%{opacity: 0.5; transform: scale(0.5);}
-    80%{opacity: 1; transform:  scale(0.5);}
-    100%{opacity: 1; transform:  scale(1);}
+    0%{opacity: 0; transform:  scale(0.95) skew(4deg);}
+    
+    100%{opacity: 1; transform: scale(1) skew(0deg);}
 }
 .hero-text-wall{
+    margin:0;
     width: 100%;
     height: 100%;
     background: linear-gradient(0deg, rgba(11, 37, 2, 0.548) 10%,rgba(0,0,0,0) 30%, rgba(0,0,0,0) 80%, rgba(245, 245, 242, 0) 100%), url(../photos/Dom002.jpg) left/cover;
-
+    animation: hero-anim 3s ease-out forwards;
+    background-size: 120% cover;
+     transform: scale(1) skew(4deg);
     /* background:  linear-gradient(0deg,  rgba(16, 129, 6, 0.562) 5%, rgba(75, 184, 3, 0) 85%)
 
     
@@ -66,7 +82,17 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
+    animation: infoblock-anim 2s ease-out 1s forwards;
+    opacity: 0;
+    transform: scaleX(0) ;
+    transform-origin: bottom;
 }
+@keyframes infoblock-anim {
+    0%{opacity: 0; transform: scale(0.8) ;}
+    
+    100%{opacity: 1; transform: scale(1) ;}
+  
+  }
 #hero-nav{
     position: sticky;
     bottom:-100%;
@@ -105,7 +131,7 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: none;
     font-size: 1.5rem;
-    box-shadow: var(--dark-shadow);
+    box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.3);
     color: var(--clr-grey-5);
     cursor: pointer;
     
@@ -117,7 +143,7 @@
     linear-gradient(180deg,  #ffffff,  #ffffff)
     ;
     transition: var(--transition);
-    animation: grow 5s ease infinite both;
+    animation: grow 4.5s ease infinite both;
 }
 .tease-button:hover{
     background: var(--clr-primary-1);
@@ -127,7 +153,7 @@
 }
 @keyframes grow {
 
-    0%{transform: scale(1)}
-    50%{transform: scale(1.15)}
-    100%{transform: scale(1)}
+    0%{transform: scale(1);box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.3);}
+    50%{transform: scale(1.2);box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.041);}
+    100%{transform: scale(1);box-shadow: var(--dark-shadow), 5px 5px  5px rgba(0, 0, 0, 0.3);}
 }

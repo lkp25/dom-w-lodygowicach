@@ -277,9 +277,7 @@ Navbar
     .navbar {
       height: 60px;
     }
-    .description{
-      padding: 1rem;
-    }
+   
 }
 
 
@@ -388,4 +386,13 @@ Navbar
 @keyframes slide-in {
   from{transform: translateY(-35px);}
   to{transform: translateY(0px);}
+}
+
+@keyframes skeleton-pulse {
+  0%{background-color: rgba(17, 46, 49, 0.493);}
+  100%{background-color: rgba(170, 173, 175, 0.726);}
+
+}
+.skeleton{
+  animation: skeleton-pulse 1s linear infinite alternate;
 }
