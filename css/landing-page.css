@@ -77,7 +77,7 @@
 
 .main-text{
     width: 85vw;
-    
+    opacity: 0;
     height: 200px;
     position: absolute;
     bottom: -20%;
@@ -85,7 +85,8 @@
     z-index: 4; 
     background: url(../svg/main-theme.svg) center/cover no-repeat;
     background-size: 90%;
-    
+    animation: infoblock-anim 4s ease-out forwards;
+    /* animation: hero-anim 5s ease-out forwards; */
 }
 .infoblock{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -167,7 +168,7 @@
     
     .main-text{
         min-width:90vw;       
-        bottom:8%;
+        bottom:3%;
         left: 3%;
     }
     #intro-text{
