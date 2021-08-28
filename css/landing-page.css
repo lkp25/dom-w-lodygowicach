@@ -65,21 +65,21 @@
     position: relative;
 }
 .textshader{
-    width: 90vw;
-    max-width: 90vw;
+    width: 100vw;
+    
     height: 15%;
     position: absolute;
-    bottom: 10%;
-    left: 3%;
-    background: linear-gradient(0deg, rgba(26, 53, 0, 0.322), rgba(26, 53, 0, 0.096));
+    bottom: 0%;
+    
+    background: linear-gradient(0deg, rgb(10, 19, 2), rgba(26, 53, 0, 0.096));
     z-index: 2;
 }
 .hero-text-wall svg{
-    max-width: 90vw;
+    max-width: 85vw;
     height: 100px;
     position: absolute;
     bottom: -7%;
-    left: 3%;
+    left: 5%;
     z-index: 3;
 }
 .infoblock{
@@ -156,6 +156,9 @@
         height: 75vh;
         
     }
+    .textshader{    
+        height: 25%;
+    }
 }
 @media screen and (min-width: 1000px) {
     
@@ -165,7 +168,7 @@
     }
     
     .hero-text-wall svg{
-        width: 95vw;
+        min-width:90vw;
         position: absolute;
         bottom:8%;
         left: 3%;
@@ -174,6 +177,9 @@
         font-size: 2rem;
         text-align: center;
      }
+     .textshader{    
+        height: 30%;
+    }
 }
 
 .tease-button{
