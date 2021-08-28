@@ -64,11 +64,23 @@
     ; */
     position: relative;
 }
-.hero-text-wall svg{
+.textshader{
     width: 90vw;
+    max-width: 90vw;
+    height: 15%;
     position: absolute;
-    bottom: 6%;
+    bottom: 10%;
     left: 3%;
+    background: linear-gradient(0deg, rgba(26, 53, 0, 0.322), rgba(26, 53, 0, 0.096));
+    z-index: 2;
+}
+.hero-text-wall svg{
+    max-width: 90vw;
+    height: 100px;
+    position: absolute;
+    bottom: -7%;
+    left: 3%;
+    z-index: 3;
 }
 .infoblock{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -101,11 +113,49 @@
     font-size: 1.2rem;
     text-align: center;
  }
+ @media screen and (min-width: 500px) {
+    .hero-text-wall svg{
+        width: 80vw;
+        position: absolute;
+        bottom: 0%;
+        left: 6%;
+    }
+    .hero-wrapper{
+        height: 60vh;
+        
+    }
+ }
  @media screen and (min-width: 600px) {
     #intro-text{
         font-size: 1.5rem;
         text-align: center;
      }
+     .hero-text-wall svg{
+        width: 70vw;
+        position: absolute;
+        bottom: 0%;
+        left: 12%;
+    }
+    
+   
+}
+@media screen and (min-width: 700px) {
+    .hero-wrapper{
+        height: 65vh;
+        
+    }
+    .hero-text-wall svg{
+        width: 70vw;
+        position: absolute;
+        bottom: 2%;
+        left: 12%;
+    }
+}
+@media screen and (min-width: 800px) {
+    .hero-wrapper{
+        height: 75vh;
+        
+    }
 }
 @media screen and (min-width: 1000px) {
     
@@ -115,9 +165,9 @@
     }
     
     .hero-text-wall svg{
-        width: 90vw;
+        width: 95vw;
         position: absolute;
-        bottom: 16%;
+        bottom:8%;
         left: 3%;
     }
     #intro-text{
