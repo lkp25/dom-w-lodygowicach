@@ -83,7 +83,7 @@
     bottom: -20%;
     left: 5%;
     z-index: 4; 
-    background: url(../svg/main-theme.svg) center/cover no-repeat;
+    background: url(../svg/Dom-w-Łodygowicach.svg) center/cover no-repeat;
     background-size: 90%;
     animation: infoblock-anim 4s ease-out forwards;
     /* animation: hero-anim 5s ease-out forwards; */
