@@ -147,7 +147,7 @@
     .main-text{
         
         bottom: -4%;
-        left: 6%;
+        left: 8%;
     }
 }
 @media screen and (min-width: 800px) {
@@ -169,7 +169,7 @@
     .main-text{
         min-width:90vw;       
         bottom:3%;
-        left: 3%;
+        left: 5%;
     }
     #intro-text{
         font-size: 2rem;
