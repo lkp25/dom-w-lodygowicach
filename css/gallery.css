@@ -67,7 +67,7 @@
 
   .spheric-gallery-link{
     /* animation: skeleton-pulse 1.5s linear infinite alternate; */
-    background: linear-gradient(45deg,hsla(209, 65%, 17%, 0.137), rgba(128, 128, 128, 0.123) );  
+    background: linear-gradient(45deg,hsla(209, 58%, 31%, 0.096), rgba(128, 128, 128, 0.123) );  
     border-radius: 5px;
     padding: 1rem;
   }
