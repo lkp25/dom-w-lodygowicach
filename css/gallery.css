@@ -50,10 +50,10 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    opacity: 0.8;
+    opacity: 0.9;
     transition: var(--transition);
     cursor: pointer;
-    animation: fade-in 1.5s ease-out forwards, skeleton-pulse 1s ease infinite alternate;
+    /* animation: fade-in 1.5s ease-out forwards, skeleton-pulse 1s ease infinite alternate; */
   }
   
   .single-img:hover{
