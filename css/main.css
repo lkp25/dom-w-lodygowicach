@@ -45,6 +45,7 @@ html::-webkit-scrollbar{
 }
 html::-webkit-scrollbar-thumb{
   background-color: rgb(179, 153, 110);
+  height: 63px;
   
 }
 html::-webkit-scrollbar-track{
@@ -119,6 +120,7 @@ a {
 
 img:not(.nav-logo) {
   width: 100%;
+  
   display: block;
 }
 
