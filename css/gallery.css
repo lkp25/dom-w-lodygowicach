@@ -65,6 +65,21 @@
     padding: 0.7rem;
   }
 
+  .spheric-gallery-link{
+    /* animation: skeleton-pulse 1.5s linear infinite alternate; */
+    background: linear-gradient(45deg,hsla(209, 65%, 17%, 0.137), rgba(128, 128, 128, 0.123) );  
+    border-radius: 5px;
+    padding: 1rem;
+  }
+  .spheric-gallery-link h3, p{
+    transform-origin: left;
+    animation: skeleton-pulse 1.5s linear infinite alternate;
+    
+  }
+  .spheric-gallery-link-header{
+    color: hsl(209, 61%, 16%);;
+  }
+
   @media screen and (min-width: 1000px) {
     .gallery-photos-container{
         display: grid;

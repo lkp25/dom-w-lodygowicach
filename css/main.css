@@ -411,8 +411,8 @@ Navbar
 }
 
 @keyframes skeleton-pulse {
-  0%{opacity: 1;}
-  100%{opacity: 0.2;}
+  0%{opacity: 1; transform: scaleX(1.0);}
+  100%{opacity: 0.3; transform: scaleX(1.019);}
  
 
 }
