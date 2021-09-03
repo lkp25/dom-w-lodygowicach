@@ -71,7 +71,8 @@
     border-radius: 5px;
     padding: 1rem;
   }
-  .spheric-gallery-link h3, p{
+  .spheric-gallery-link h3, 
+  .spheric-gallery-link p{
     transform-origin: left;
     animation: skeleton-pulse 1.5s linear infinite alternate;
     
@@ -117,8 +118,8 @@
   }
   .modal-img-container{
     
-    border: 0.5rem solid gainsboro;
-    
+    border: 0.2rem solid rgba(220, 220, 220, 0.432);
+    border-radius: 3px;
     /* transform: translate(-50%, -50%);   */
     width: 320px;
     
@@ -143,6 +144,14 @@
 @media screen and (min-width: 800px) {
   .modal-img-container{
     width: 650px;
+  }
+}
+/* horizontal on phone! */
+@media screen and (orientation: landscape) {
+  .modal-img-container{
+    width: 450px;
+    /* max-height: 400px; */
+    
   }
 }
 @media screen and (min-width: 1000px) {
