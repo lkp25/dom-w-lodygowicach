@@ -118,8 +118,8 @@
   }
   .modal-img-container{
     
-    border: 0.2rem solid rgba(220, 220, 220, 0.432);
-    border-radius: 3px;
+    border: 0.1rem solid rgba(220, 220, 220, 0.432);
+    /* border-radius: 3px; */
     /* transform: translate(-50%, -50%);   */
     width: 320px;
     
@@ -130,6 +130,7 @@
   text-transform: capitalize;
   letter-spacing: 0.1rem;
   border-top: 1px solid gray;
+  padding-top: 0.2rem;
 }
 @media screen and (min-width: 450px) {
   .modal-img-container{
@@ -223,11 +224,11 @@
   .image-description{
       max-height: 1rem;
       text-align: center;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
   }
   @media screen and (min-width: 1000px) {
     .image-description{
-        max-height: 2rem;        
-        font-size: 2rem;
+        max-height: 1.5rem;        
+        font-size: 1.5rem;
     }
   }
