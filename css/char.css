@@ -14,6 +14,7 @@
 }
 
 .description{
+    backdrop-filter: blur(3rem);
     opacity: 0;
     /* display: grid; */
     place-items: center;
@@ -135,7 +136,7 @@
         padding: 2rem 2rem;
     }
     .description{
-        padding: 1rem;
+        padding: 1.5rem;
     }
     .img-teaser-wrapper{
         height: 200px;

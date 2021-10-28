@@ -17,9 +17,10 @@ images.forEach((img, index) => {
 const displayImage = (index) => {
     document.body.style.overflow = 'hidden';
     console.log(index);
+    console.log(images.length);
     if (index < 0) {
-        displayImage(images.length -2)
-        return;
+        return displayImage(images.length -2)
+        
     }
     if (index >= images.length -1) {
         displayImage(0)

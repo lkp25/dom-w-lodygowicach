@@ -19,9 +19,9 @@ body{
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Lato', sans-serif;
-    letter-spacing: 0.08rem;
+    letter-spacing: 0.04rem;
     color: var(--clr-grey-1);
-    line-height: 1.5;
+    line-height: 1.4;
     font-size: 0.875rem;
 }
 
@@ -126,13 +126,13 @@ h1,
 h2,
 h3
  {
-  letter-spacing: var(--spacing);
-  text-transform: capitalize;
+  letter-spacing: var(--spacing); 
   line-height: 1.25;
   margin-bottom: 0.75rem;
   font-family: 'Roboto', sans-serif;
-  text-transform: capitalize;
-  letter-spacing: 0.1rem;
+  /* text-transform: capitalize; */
+  letter-spacing: 0.08rem;
+  font-weight: 700;
 }
 h1 {
   font-size: 2.5rem;
