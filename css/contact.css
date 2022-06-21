@@ -1,15 +1,17 @@
 .contact-section{
+    padding-top: 2rem;
     display: grid;
     grid-template-columns: 1fr;
     gap:1rem;
     padding: 0.5rem;
+    height: ;
 }
 .description{
     opacity: 0;
     display: grid;
     place-items: center;
     animation: fade-in 2s ease-out forwards;
-    width: 330px;
+    width: 100%;
     padding:1rem 0.5rem;
 
 }
@@ -26,10 +28,7 @@
     animation-delay: 2s;
 }
 @media screen and (min-width: 700px) {
-    .contact-section{
-        grid-template-columns: 1fr 1fr;
-        
-    }
+   
     .contact-section div{
         padding: 2rem;
     }
@@ -41,10 +40,7 @@
     }
 }
 @media screen and (min-width: 900px) {
-    .contact-section{
-        grid-template-columns: 1fr 1fr;
-        
-    }
+   
     .contact-section div{
         padding: 3rem;
     }
