@@ -1,4 +1,4 @@
-const menu = document.querySelector('#hero-nav')
+const menu = document.querySelector('.menu')
 const links = document.querySelector('.nav-links')
 // highlight active tab:
 const currentUrl = window.location.href
