@@ -223,6 +223,7 @@ Navbar
     ;
 }
 .menu{
+  z-index: 99999999;
   position: absolute;
   left:50%;
   top:10px;
@@ -246,6 +247,7 @@ Navbar
   background: var(--clr-primary-1);
 }
 .nav-links{
+  z-index: 99999999999;
     display: none;
     width: 100vw;
     background: linear-gradient(180deg,  #ac82219b,  #683a1b7c), 

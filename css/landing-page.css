@@ -16,7 +16,7 @@
 .topshader{
     
     position: fixed;
-    z-index: 9999999999;
+    z-index: 999999;
     top:0;
     width: 100vw;
     height: 15vh;
@@ -25,7 +25,7 @@
 .bottomshader{
     
     position: fixed;
-    z-index: 9999999999;
+    z-index: 999999;
     bottom:0;
     width: 100vw;
     height:10vh;
@@ -64,6 +64,7 @@
     
     ; */
     position: relative;
+    display: flex;
 }
 .textshader{
     width: 100vw;
@@ -75,13 +76,14 @@
     background: linear-gradient(0deg, rgb(10, 19, 2), rgba(26, 53, 0, 0.096));
     z-index: 2;
     filter: blur(10px);
+    
 }
 
 .main-text{
     width: 85vw;
     opacity: 0;
     height: 200px;
-    position: absolute;
+    place-self: flex-end;
     bottom: -20%;
     left: 5%;
     z-index: 4; 
@@ -102,10 +104,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
-    animation: infoblock-anim 2s ease-out 1s forwards;
-    opacity: 0;
-    transform: scaleX(0) ;
-    transform-origin: bottom;
+    
 }
 @keyframes infoblock-anim {
     0%{opacity: 0; transform: scale(0.8) ;}
